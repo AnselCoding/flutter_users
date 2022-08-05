@@ -1,0 +1,71 @@
+﻿$('#tbl_zhTb1').zhTable('getRows')
+$('#tbl_zhTb1 tbody').remove()
+
+ $('#tbl_zhTb1')[0].deleteRow(7)
+
+ $('#tbl_zhTb1').zhTable('getRows')[0]
+
+ $('#tbl_zhTb1').zhTable('getRow',1)
+
+
+{ 'id': 'cusOrder', 'text': '客戶單號', 'sort': true, 'type': 'fixMinWidth' }, /*'客戶<br/>單號'*/
+
+{ 'id': 'seq', 'text': '序號','dataType':'num', 'sort': true },     
+//dataType :num or string 會影響到 sort 是以字串 還是數值方式排序
+
+,'type': 'fixMinWidth'
+
+'_tblClass': 'table table-hover table-striped rwd-table',  //table-striped
+'_tblClass': 'table table-hover table-responsive-lg table-bordered table-striped table-sm mb-0',  //table-striped
+
+'_tblType': 'A',   or 'Q'
+----------------------------------------------
+ ********zhTableV3********
+ ***   tbl_zhTb1===>zhTb1
+         // zhTbl=>"" zhTbl01=>"_01",zhTbl02=>"_02"
+
+$.zhTable.defaults._G_zhTbl
+$.zhTable.defaults._G_zhTbl["zhTb101"]._arrData
+
+
+$('#zhTb101').zhTable('getRows')
+$('#zhTb101').zhTable('getRows')[2]
+$('#zhTb101').zhTable('getRow',1)
+$('#zhTb101').zhTable('loadRows', a)
+
+$('#zhTb101').zhTable('rowAdd',G.A1.Row);
+$('#zhTb101').zhTable('rowUpdate', G.A1.Row, G.A1.RowIndex);
+$('#tbl_zhTb1').zhTable('rowDel', G.A1.RowIndex);
+
+$('#zhTb101').zhTable('loadRows', $('#zhTb101').zhTable('getRows'))
+
+
+$('#zhTb101 tbody').remove()
+$('#zhTb101')[0].deleteRow(7)
+
+
+var a = JSON.parse(JSON.stringify($('#zhTb101').zhTable('getRows')))
+
+var a=$('#zhTb101').zhTable('getRows').concat()
+a.splice(2,2); <- 剩下的資料 還是 會相互影響   (物件值 連帶有影響)
+
+var arr1 = [1,2,3,4];
+var arr2 = arr1.concat()
+​
+
+$('#zhTb101').zhTable('loadRows', a)
+
+ 
+
+
+{ 'id': 'cusOrder', 'text': '客戶單號', 'sort': true, 'type': 'fixMinWidth' }, /*'客戶<br/>單號'*/
+
+{ 'id': 'seq', 'text': '序號','dataType':'num', 'sort': true },     
+//dataType :num or string 會影響到 sort 是以字串 還是數值方式排序
+
+,'type': 'fixMinWidth'
+
+'_tblClass': 'table table-hover table-striped rwd-table',  //table-striped
+'_tblClass': 'table table-hover table-responsive-lg table-bordered table-striped table-sm mb-0',  //table-striped
+
+'_tblType': 'A',   or 'Q'

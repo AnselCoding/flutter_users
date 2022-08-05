@@ -1,0 +1,66 @@
+﻿https://dotblogs.com.tw/alanjiang/archive/2011/01/26/21061.aspx  使用jQuery對 select 的操作
+
+https://www.jqueryscript.net  (jQuery Script - Free jQuery Plugins and Tutorials)
+
+
+How exactly can I replace an iframe with a div and Javascript?
+https://stackoverflow.com/questions/10040297/how-exactly-can-i-replace-an-iframe-with-a-div-and-javascript
+
+WebStorage - localStorage和sessionStorage 基本使用方法
+https://dotblogs.com.tw/shadow/2014/07/10/145879
+JS30-Day15-LocalStorage
+https://ithelp.ithome.com.tw/articles/10195522
+如何打造自己的 jQuery Plugin 入門教學
+https://blog.kdchang.cc/2016/04/01/how-to-create-your-own-jquery-plugin/
+
+Online JavaScript Minifier/Compressor. Free! Provides an API. Simple Quick and Fast.
+https://javascript-minifier.com/
+
+IIS8部署的网站出现 fa-solid-900.woff2的404錯誤
+MIMI類型 新增
+.woff                application/x-font-woff
+.woff2               application/x-font-woff
+.less                text/css
+
+//Tempus Dominus is the successor to the very popular Eonasdan/bootstrap-datetimepicker
+https://tempusdominus.github.io/bootstrap-4/Usage/
+format 格式 http://momentjs.com/docs/#/displaying/format/
+
+[BS] Bootstrap4 Customize Responsive Table（客制化表格寬度）
+https://pjchender.github.io/2017/10/31/bs-bootstrap4-table/
+
+Array.prototype.sort()
+https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+
+//原始字符串
+var string = "欢迎访问!\r\nhangge.com    做最好的开发者知识平台";
+ 
+//替换所有的换行符
+string = string.replace(/\r\n/g,"<br>")
+string = string.replace(/\n/g,"<br>");
+ 
+//替换所有的空格（中文空格、英文空格都会被替换）
+string = string.replace(/\s/g,"&nbsp;");
+ 
+//输出转换后的字符串
+console.log(string);
+
+
+
+[jQuery]使用jQuery對 select 的操作
+https://dotblogs.com.tw/alanjiang/2011/01/26/21061
+js或jquery如何获取父级、子级、兄弟元素(包括祖级、孙级等)
+https://lvwenhan.com/web-front/373.html
+
+
+
+
+伺服器 'NB-JERRY' 上的 MSDTC 無法使用
+
+1.控制台\系統及安全性\系統管理工具 之服務 
+
+  Distributed Transaction Coordinator  設為自動
+
+2.控制台\系統及安全性\系統管理工具  之元件服務
+   元件服務\電腦\Distributed Transaction Coordinator 本機 DTC 

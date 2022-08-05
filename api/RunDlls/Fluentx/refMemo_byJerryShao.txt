@@ -1,0 +1,2 @@
+Ref https://www.codeproject.com/Articles/833007/Redirect-and-POST-in-ASP-NET-MVC
+Redirect and POST in ASP.NET MVC

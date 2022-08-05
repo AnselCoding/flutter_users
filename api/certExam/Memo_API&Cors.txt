@@ -1,0 +1,20 @@
+﻿1.修改 WebApiConfig.cs 之 route
+            config.Routes.MapHttpRoute(
+                name: "ZhDefaultApi2",
+                routeTemplate: "api/{controller}/{action}",
+                defaults: new { id = RouteParameter.Optional }
+                );
+2.nuguet 安裝 Microsoft.AspNet.Cors 5.2.7 後 於  WebApiConfig.cs
+  加入    config.EnableCors();
+
+3.Api class 放置  
+      [EnableCors(origins: "*", headers: "*", methods: "*", SupportsCredentials = true)]
+
+4.若 Api method 是 authorize  呼叫 ajax 帶 帳密
+ ajax 設定
+ $.ajaxSetup({
+    crossDomain: true,
+    xhrFields: {
+        withCredentials: true
+    } 
+});

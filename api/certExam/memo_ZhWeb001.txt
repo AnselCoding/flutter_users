@@ -1,0 +1,49 @@
+﻿1.20190216 Create Prj in 4.5.2
+2.nuget 升級 組件 如 bootStrap 升級到 4.3.1
+3.更新 C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\bin\plugins\Diagnostics\Newtonsoft.Json.dll 到 目前最新的版本 12.0.1.22727
+  (  certExam\packages\Newtonsoft.Json.12.0.1\lib\net45)
+
+  更新 ZhClass NPOI
+  
+ 啟用 MSDTC 服務與相關設定( Distributed Transaction Coordinator)
+ https://dotblogs.com.tw/echo/2017/08/24/windows_msdtc_setting
+
+
+--更新.... 相關套件 Owin 以便日後能透過 Gogole/FaceBook 登入
+
+--https://fontawesome.com/v4.7.0/icons/
+
+XXXXXXX_iisexpress /config:D:\VisualDev\Vs2017\00.Practice\certExam\.vs\config\applicationhost.config /site:certExam
+iisexpress /config:D:\VisualDev\Vs2017\01.itri2019\certExam\.vs\config\applicationhost.config /site:certExam
+http://localhost:50359/
+
+http://localhost:50359/Html/Itri2019_HtmlSample.html
+
+http://localhost:50359/Html/Itri2019_HtmlSampleV2.html
+
+ZhWebClass.CmnObjV3-->PrjConfig
+
+
+ JavaScript 程式碼貼上去直接線上編譯
+https://closure-compiler.appspot.com/home
+
+
+ operDr["tblPrimaryKeysAndValues"] = "sysCorpId='" + actRow.sysCorpId.ToString() + "'|zip='" + actRow.zip.ToString() + "'";
+
+
+https://tempusdominus.github.io/bootstrap-4/
+
+
+
+------------------------------
+DELETE S90_webApiLog
+
+DELETE S90_userLog
+DELETE S90_operLog
+
+SELECT * from S90_webApiLog 
+SELECT * from S90_userLog 
+SELECT * from S90_operLog
+
+----------------------------------
+ @class = "form-control populate"   ==> @class = "form-control"

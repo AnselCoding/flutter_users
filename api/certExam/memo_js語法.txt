@@ -1,0 +1,50 @@
+﻿<input id="distanceSeq" type="number" class="form-control" min="0" max="32767" required>
+
+<select class="form-control" id="value_dcId"></select>
+<select data-plugin-selectTwo class="form-control populate" id="value_dcId"></select>
+-->取值 $('#zip').val()
+-->設定值 $('#zip').val('105').trigger('change');
+
+$('#docFlowStatus').attr('disabled', false);
+$('#docFlowStatus').attr('disabled', true);
+
+$('#groups :selected').text()
+
+ userPhone: document.getElementById("userPhone").value
+
+$('#dcShip').val(G.A1.Row.dcShip);  
+  
+ 
+
+if (userData.sysCorpId == 1 || userData.sysCorpId == 2)
+{
+    ViewBag.selItem_sysCorpId = ZhWebClass.CmnObjV3.Get_selItem_corps(ZhConfigV2.IsAddIndexZero.Yes, isIncludeMainCorp: "1");
+
+}
+else
+{
+    ViewBag.selItem_sysCorpId = ZhWebClass.CmnObjV3.Get_selItem_corps(ZhConfigV2.IsAddIndexZero.Yes,sysCorpId:userData.sysCorpId.ToString(), isIncludeMainCorp: "1");
+} 
+            
+            
+            
+<label for="userPassword">使用者密碼 : </label>
+<input id="userPassword" class="form-control" type="password" minlength="5" maxlength="5"  required>
+<div class="invalid-feedback">密碼長度請輸入 5~10碼</div>
+            
+            
+            
+            
+ var tr_length = $('#zhTb1 tr').length  15
+ var td_length = $('#zhTb1 td').length  84
+ var trtd_length = $('#zhTb1 tr td').length  84
+ var $('#zhTb1 tr:eq(1) td').length  6
+ $('#zhTb1 tr:eq(0) th:eq(0)')[0]
+ 
+ $('#zhTb1 tr:eq(0) th:eq(0)')[0].addClass("col-sm-1")
+ 
+ $('#zhTb1 tr:eq(0) th:eq(0)').css("width",100)
+ 
+ $('#zhTb1').css("width",800)
+ 
+  row[$(arrTh[j]).attr('col')]==undefined ? "":row[$(arrTh[j]).attr('col')]            
